@@ -1,0 +1,131 @@
+header {
+  .navbar {
+    text-transform: uppercase;
+    .navbar-brand {
+      color: $first-colour;
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+    .navbar-nav {
+      .nav-item {
+        margin-left: 2rem;
+        font-weight: 700;
+        .nav-link {
+          &:hover {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}
+.main-header {
+  margin-top: 3rem;
+}
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4rem;
+  width: 40rem;
+}
+.text-right {
+  text-align: right;
+}
+.desc {
+  text-transform: capitalize;
+}
+.button {
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+.btn {
+  padding: 0;
+}
+.main-button {
+  background: $first-colour;
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+}
+.white-button {
+  background: $white;
+  color: $black;
+  &:hover {
+    color: $black;
+  }
+}
+.img-large {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: #000;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+}
+.img-small {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  background: #000;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+}
+.accuracy {
+  margin: 8rem auto;
+  .box {
+    width: 10rem;
+    .title-box {
+      font-weight: 700;
+      font-size: 2rem;
+      font-size: 3rem;
+    }
+  }
+}
+.main {
+  margin: 8rem auto;
+  .title-card {
+    margin: 1rem auto;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+}
+.process {
+  margin: 8rem auto;
+  .title-process {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+.colaborate {
+  margin: 8rem auto;
+  background: $black;
+  color: $white;
+  padding: 5rem;
+  .title-colaborate {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+}
+.footer {
+  font-weight: 700;
+  text-transform: uppercase;
+}
